@@ -1,0 +1,71 @@
+.bestProduct{
+    text-align: center;
+    margin: 4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+.bestProduct h3{
+    font-size: 2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.bestProduct > p{
+    margin: 2rem;
+
+}
+
+.bestProduct .bestProduct-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    text-align: start;
+    gap: 3rem;
+}
+
+
+
+@media only screen and (max-width:450px) {
+    .bestProduct .bestProduct-items{
+        gap: 1rem;
+    }
+
+    .bestProduct{
+        margin: 0.5rem;
+    }
+}
+@media only screen and (max-width:361px) {
+    .bestProduct .bestProduct-items{
+        gap: 1rem;
+    }
+    .bestProduct{
+        margin: 0.5rem;
+    }
+}
+@media only screen and (max-width:661px) {
+    .bestProduct .bestProduct-items{
+        gap: 1rem;
+    }
+    .bestProduct{
+        margin: 0.5rem;
+    }
+}
+@media only screen and (max-width:344px) {
+    .bestProduct .bestProduct-items{
+        gap: 1rem;
+    }
+    .bestProduct{
+        margin: 0.5rem;
+    }
+}

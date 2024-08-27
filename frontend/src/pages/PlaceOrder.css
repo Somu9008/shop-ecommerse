@@ -1,0 +1,258 @@
+.placeorder{
+    display: flex;
+    /* border: 1px solid red; */
+   width: 90%;
+   margin: auto;
+   margin-top: 3rem;
+   justify-content: space-between;
+   margin-bottom: 20rem;
+   font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.delivery-info{
+    /* border: 1px solid rgb(17, 0, 255); */
+    flex-basis: 45%; 
+}
+
+.input-container{
+    /* border: 1px solid green; */
+    width: 90%;
+    margin-top: 2rem;
+    
+}
+
+.input-container input{
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 92%;
+}
+
+.input-container .two-input{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid magenta; */
+    display: flex;
+    justify-content: space-between;
+     gap: 5%; 
+     margin-bottom: 1rem;
+}
+
+.input-container .two-input input{
+    padding: 1rem;
+    width: 100%;
+}
+
+
+/* right place order */
+
+.total-cart-payment{
+    /* border: 1px solid greenyellow; */
+    width: 50%;
+}
+
+.total-payment{
+    /* border: 1px solid orange; */
+}
+
+
+.payment{
+    /* border: 1px solid gold; */
+    margin-top: 2rem;
+    padding: 0.3rem;
+
+}
+
+.payment .all-methods{
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.payment .all-methods > div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.8rem;
+    flex-basis: 28%;
+}
+
+.payment .all-methods > div > p{
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+    
+}
+
+.method{
+    background: rgb(72, 255, 118);
+}
+
+.payment .all-methods .stripe{
+    border: 1px solid gray;
+}
+.payment .all-methods .rezerpay{
+    border: 1px solid gray;
+}
+.payment .all-methods .cashOnDelivery{
+    border: 1px solid gray;
+}
+
+
+.placeorder .place-btn {
+    text-align: end;
+}
+
+.placeorder .place-btn > .p-btn{
+    background-color: black;
+   color: aliceblue;
+   margin-top: 1rem;
+   padding: 0.5rem 2rem 0.5rem 2rem ;
+   font-family: "Roboto", sans-serif;
+   
+   
+}
+
+
+@media (max-width:1140px) {
+    .total-cart-payment{
+        /* border: 1px solid greenyellow; */
+        width: 55%;
+    }
+}
+
+
+@media (max-width:1031px) {
+    .total-payment{
+        /* border: 1px solid orange; */
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .payment{
+        /* border: 1px solid gold; */
+        margin-top: 2rem;
+         width: 92%;
+         margin: auto;
+         margin-top: 2rem;
+    }
+
+    .payment .all-methods > div {
+        gap: 1rem;
+    }
+
+    .payment .all-methods > div > .stripe{
+        width: 4rem;
+        height: 2rem;
+    }
+    .payment .all-methods > div > .rezerpay{
+        width: 5.5rem;
+        height: 2rem;
+    }
+   
+    .payment .all-methods > div > p{
+        width: 0.7rem;
+        height: 0.7rem;
+        border: 1px solid gray;
+        border-radius: 50%;
+        /* background: green; */
+    }
+
+
+}
+
+
+@media (max-width:920px) {
+
+
+    .input-container input{
+        padding: 0.6rem;
+        margin: auto;
+        margin-bottom: 1rem;
+        width: 92%;
+    }
+
+    .input-container .two-input input{
+        padding: 0.6rem;
+        width: 100%;
+    }
+
+
+    .payment .all-methods{
+        flex-direction: column;
+    }
+
+    .payment .all-methods > div {
+        gap: 1rem;
+    }
+
+    .payment .all-methods > div > .stripe{
+        width: 9rem;
+        height: 2rem;
+    }
+    .payment .all-methods > div > .rezerpay{
+        width: 9rem;
+        height: 2rem;
+    }
+
+    .placeorder{
+        width: 95%;
+    }
+
+    .input-container{
+        /* border: 1px solid green; */
+        width: 95%;
+        
+    }
+
+}
+
+@media (max-width:661px) {
+    .placeorder{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .placeorder h2{
+        font-size: 1.1rem;
+    }
+
+    .delivery-info{
+        /* border: 1px solid rgb(17, 0, 255); */
+        flex-basis: 45%; 
+        width: 95%;
+    }
+
+    .input-container{
+        /* border: 1px solid green; */
+        width: 100%;
+        
+    }
+
+    .input-container input{
+        padding: 0.6rem;
+        margin: auto;
+        margin-bottom: 0.7rem;
+        width: 92%;
+    }
+
+    .input-container .two-input input{
+        padding: 0.6rem;
+        width: 100%;
+    }
+
+    .total-cart-payment{
+        /* border: 1px solid greenyellow; */
+        width: 90%;
+        padding: 0;
+    }
+
+
+    
+}

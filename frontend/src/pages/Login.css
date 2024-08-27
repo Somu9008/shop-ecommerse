@@ -1,0 +1,123 @@
+.login-signup{
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 1rem;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    font-family: "Roboto";
+    padding: 0.5rem;
+}
+
+.login-signup h1{
+    margin: 0.5rem;
+}
+
+.login-signup form{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+
+.login-signup form input{
+    padding: 0.7rem;
+}
+
+.login-signup form > div{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.login-signup form p{
+    margin:0;
+    cursor: pointer;
+}
+
+.login-signup form button{
+    background-color: black;
+  color: aliceblue;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  font-family: "Roboto";
+}
+
+
+@media (max-width:1060px) {
+    .login-signup form p{
+        margin:0;
+        cursor: pointer;
+        font-size: 0.8rem;
+    }
+
+    .login-signup form input{
+        padding: 0.5rem;
+    }
+    
+}
+@media (max-width:860px) {
+    .login-signup form p{
+        margin:0;
+        cursor: pointer;
+        font-size: 0.6rem;
+    }
+
+    .login-signup form input{
+        padding: 0.4rem;
+    }
+
+    .login-signup form{
+        width: 95%;
+    }
+
+    .login-signup form button{
+        padding: 0.3rem;
+    }
+
+    .login-signup{
+        width: 40%;
+    }
+    
+}
+
+
+@media (max-width:590px) {
+    .login-signup form p{
+        margin:0;
+        cursor: pointer;
+        font-size: 0.6rem;
+    }
+
+    .login-signup form{
+        width: 95%;
+        margin-top: 2rem;
+    }
+
+    .login-signup form input{
+        padding: 0.2rem;
+
+    }
+    .login-signup form button{
+        padding: 0.3rem;
+    }
+
+    .login-signup h1{
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .login-signup form p{
+        margin:0;
+        cursor: pointer;
+        font-size: 0.5rem;
+    }
+
+    .login-signup{
+        width: 60%;
+    }
+
+}

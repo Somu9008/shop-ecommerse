@@ -1,0 +1,98 @@
+.contact-container{
+    /* border:1px solid red; */
+    width: 80%;
+    margin: auto;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.contact-container .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+    /* border: 1px solid blue; */
+    text-align: start;
+}
+
+.contact-container .contact > div > img{
+    width: 25rem;
+    height: 25rem;
+    
+}
+
+.contact-container .contact .contact-details h1,h2{
+  color: rgb(47, 47, 47);
+}
+.contact-container .contact .contact-details p{
+  color: rgb(88, 88, 88);
+}
+
+.contact-container .contact button{
+    padding: 0.5rem 2rem 0.5rem 2rem; 
+    background-color: black;
+    color: white;
+
+}
+
+@media (max-width:1115px) {
+    .contact-container .contact .contact-details p{
+        font-size: 0.9rem;
+      }
+}
+@media (max-width:945px) {
+    .contact-container .contact .contact-details p{
+        
+        font-size: 0.7rem;
+      }
+
+      .contact-container .contact .contact-details h1,h2{
+        
+        font-size: 1.5rem;
+      }
+
+      .contact-container h1{
+        font-size: 1.5rem;
+      }
+
+      .contact-container .contact > div > img{
+        width: 20rem;
+        height: 20rem;
+        
+    }
+
+    .contact-container .contact button{
+        padding: 0.5rem 1.5rem 0.5rem 1.5rem; 
+        
+       
+    
+    }
+}
+
+@media (max-width:850px) {
+    .contact-container .contact > div > img{
+        width: 16rem;
+        height: 16rem;
+        
+    }
+
+    .contact-container .contact button{
+        padding: 0.5rem 1rem 0.5rem 1rem; 
+        
+    
+    }
+}
+
+@media (max-width:590px) {
+    .contact-container .contact{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-container .contact > div > img{
+        width: 13rem;
+        height: 13rem;
+        
+    }
+}

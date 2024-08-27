@@ -1,0 +1,221 @@
+.order-container{
+    /* border: 1px solid blue; */
+    font-family: "Roboto";
+    width: 90%;
+    margin: auto;
+}
+
+.my-order{
+    /* border: 1px solid red ; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8rem;
+    border-bottom: 1px solid gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.my-order .order-img-details{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-basis: 40%;
+
+}
+
+.my-order .order-img-details{
+    /* border: 1px solid green; */
+}
+
+.my-order .order-img-details img{
+    width: 7.5rem;
+    height: 9rem;
+}
+
+.my-order .order-img-details .order-item-details{
+    /* border: 1px solid blue; */
+    font-family: "Roboto";
+    color: rgb(68, 68, 68);
+}
+
+.my-order .order-img-details .order-item-details h3{
+    margin:0.5rem;
+}
+
+.my-order .order-img-details .order-item-details .quantity-size h4,h5{
+    margin: 0.5rem;
+    margin-top: 0.5rem;
+    padding-top: 0;
+}
+
+
+
+
+.my-order .order-img-details .order-item-details .quantity-size{
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 1rem;
+}
+
+.my-order .order-date h4{
+  margin: 0.5rem;
+}
+
+.my-order .order-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem
+}
+
+
+.my-order .order-status > .status{
+   height: 0.5rem;
+   width: 0.5rem;
+   border-radius: 50%;
+   background-color: rgb(77, 255, 109);
+}
+
+.my-order .order-track .track-btn{
+    border: 1px solid gray;
+    padding: 0.7rem;
+    font-family: "Roboto";
+}
+
+
+
+@media (max-width:1091px) {
+    .my-order .order-img-details .order-item-details h3{
+        margin:0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .my-order .order-img-details .order-item-details .quantity-size h4,h5{
+        margin: 0.5rem;
+        margin-top: 0.5rem;
+        padding-top: 0;
+        font-size: 0.6rem;
+    }
+    
+
+    .my-order .order-date h4{
+        margin: 0.5rem;
+        font-size: 0.8rem;
+      }
+      
+      .my-order .order-status :nth-child(2){
+        font-size: 0.8rem;
+     }
+
+      .my-order .order-track .track-btn{
+        padding: 0.5rem;
+        
+    }
+    
+    
+}
+
+
+@media (max-width:750px) {
+    .my-order .order-track .track-btn{
+        
+        padding: 0.3rem;
+        
+    }
+
+    .my-order .order-status :nth-child(2){
+        font-size: 0.6rem;
+     }
+
+     .my-order .order-img-details img{
+        width: 6rem;
+        height: 8rem;
+    }
+}
+
+@media (max-width:601px) {
+
+    .order-container{
+        width: 96%;
+    }
+
+     .my-order{
+        justify-content: space-between;
+        width: 100%;
+     }
+
+    .my-order .order-img-details .order-item-details h3{
+        margin:0.5rem;
+        font-size: 0.6rem;
+    }
+
+    .my-order .order-img-details img{
+        width: 6.5rem;
+        height: 8rem;
+    }
+
+
+    .my-order .order-track .track-btn{ 
+        padding: 0.1rem;  
+    }
+
+    .my-order .order-status{
+        gap: 0.4rem;
+    }
+
+    .my-order .order-status :nth-child(2){
+        font-size: 0.6rem;
+     }
+
+     .my-order .order-img-details .order-item-details .quantity-size{
+        display: flex;
+        /* border: 1px solid red; */
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .my-order .order-date h4{
+        margin: 0.5rem;
+        font-size: 0.6rem;
+      }
+
+      .my-order .order-img-details{
+        flex-basis: 55%;
+        gap: 0.2rem;
+
+    }
+
+
+
+    .my-order .order-track .track-btn{
+        padding: 0.2rem;
+        font-size: 0.6rem;
+        
+    }
+    
+    
+    }
+
+    @media (max-width:350px){
+        .my-order .order-img-details img{
+            width: 5rem;
+            height: 7rem;
+        }
+
+        .my-order .order-track .track-btn{
+            padding: 0.1rem;
+            font-size: 0.5rem;
+            
+        }
+
+        .my-order .order-img-details .order-item-details h3{
+            margin:0.5rem;
+            font-size: 0.5rem;
+        }
+
+        .my-order .order-status :nth-child(2){
+            font-size: 0.5rem;
+         }
+    }
